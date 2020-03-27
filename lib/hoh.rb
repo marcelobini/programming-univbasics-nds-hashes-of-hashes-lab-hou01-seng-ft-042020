@@ -52,7 +52,7 @@ def naming_system
   }
 }
    order = {
-   :label => "Order", 
+   :label => "Order",
    :sub_category => family
  }
     domain = {
@@ -61,7 +61,7 @@ def naming_system
      :label => "Phylum",
      :sub_category => {
        :label => "Class",
-        :sub_category => order 
+        :sub_category => order
     }
   }
 }
